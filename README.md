@@ -54,3 +54,8 @@ pip install \
   numpy \
   pyttsx3 \
   requests
+
+pip install piper-tts
+
+curl -LO https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx
+curl -LO https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx.json
